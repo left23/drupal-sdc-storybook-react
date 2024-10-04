@@ -1,0 +1,23 @@
+<article class="card{{ modifier ? ' ' ~ modifier }}">
+  {% if image %}
+    <div class="card__image">
+      <figure>
+        {{ image }}
+      </figure>
+    </div>
+  {% endif %}
+
+  <div class="card__content">
+
+    {% include 'storybook:title' with {
+        "text": title.text,
+        "level": title.level,
+      }
+    %}
+
+    {% block card_body %}
+      <p class="card__teaser">{{ body.text }}</p>
+    {% endblock %}
+
+  </div>
+</article>

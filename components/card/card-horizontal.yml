@@ -1,0 +1,9 @@
+modifier: 'card--horizontal'
+image: <img src="https://picsum.photos/seed/picsum/450/300" alt="Placeholder image" />
+title:
+  level: 2
+  modifier: 'card__title'
+  text: 'Lorem ipsum dolor sit amet'
+  url: ''
+teaser: 'Consectetur adipiscing elit. Nullam ultricies turpis at urna vestibulum, eget ullamcorper eros scelerisque. Pellentesque ullamcorper tristique fermentum.'
+cta: ''

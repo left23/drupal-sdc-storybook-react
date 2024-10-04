@@ -1,0 +1,17 @@
+global:
+  version: VERSION
+  css:
+    base:
+      dist/css/reset.css: {}
+      dist/css/base.css: {}
+      dist/css/utilities.css: {}
+
+card:
+  css:
+    component:
+      dist/css/card.css: {}
+
+title:
+  css:
+    component:
+      dist/css/title.css: {}

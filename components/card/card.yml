@@ -1,0 +1,9 @@
+modifier: ''
+image: <img src="https://picsum.photos/seed/picsum/600/400" alt="Placeholder image" />
+title:
+  level: 3
+  modifier: 'card__title'
+  text: 'Phasellus sit amet maximus velit'
+  url: 'https://example.com'
+body:
+  text: 'Phasellus sit amet maximus velit'

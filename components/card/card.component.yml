@@ -1,0 +1,24 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/10.1.x/core/modules/sdc/src/metadata.schema.json
+name: Card
+status: experimental
+group: storybook
+
+props:
+  type: object
+  required:
+    - attributes
+    - content
+  properties:
+    attributes:
+      type: Drupal\Core\Template\Attribute
+      title: Drupal attributes
+      description: HTML attributes for the root wrapper element.
+    content:
+      type: string
+      title: Card content
+      description: The content of the card component.
+    title:
+      level: 3
+      modifier: 'card__title'
+      text: 'Phasellus sit amet maximus velit'
+      url: 'https://example.com'
